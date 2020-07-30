@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Redeem CC</title>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='container'>
+  <div class='window'>
+    
+        <div class='credit-info'>
+          <div class='credit-info-content'>
+            <h1 style="padding-left: 5em;margin-top: 1em; font-size: 25px;">Code Green Back</h1>
+            <img src='./gcb.png' height='100' class='card-image' id='card-image' style="margin-top: -4.5em; margin-left: 2em; margin-bottom: 3em;"></img>
+            Account Number
+            <input class='input-field'></input>
+            Re-Enter Account Number
+            <input class='input-field'></input>
+            <table class='half-input-table'>
+              <tr>
+                <td> IFSC CODE
+                  <input class='input-field'></input>
+                </td>
+                <td>Phone Number
+                  <input class='input-field'></input>
+                </td>
+                
+              </tr>
+            </table>
+            <div class="slider">
+              <input type="range" min="100" max="5000" value="100" oninput="rangeValue.innerText = this.value">
+              
+              <p>&#8377;</p><p id="rangeValue" style="margin-left: -1em;">100</p>
+              
+            </div>
+            <button class='pay-btn'>Redeem</button>
+
+          </div>
+
+        </div>
+<div class='order-info'>
+      <div class='order-info-content'>
+        <h2>Order Summary</h2>
+                <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='./man.png' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'>Name</span>
+                <br> <br> <span class='thin small'> Email ID<br><br></span>
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+        <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='./coin.gif' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'>CODE COINS</span>
+                <span class='thin small'></span><br><br>Remaining :
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class='price'>500</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='./timer.png' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'>Transaction Status</span><br>
+                <span class='thin small'>Processing ID : 1e652174632 </span> <br><br>Pending<br><br> 
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class='line'></div>
+        <div class='total'>
+          <span style='float:left;'>
+            <div class='thin dense'>GST 2%</div>
+            <div class='thin dense'>TOTAL CC</div>
+            Redeem
+          </span>
+          <span style='float:right; text-align:right;'>
+            <div class='thin dense'>&#8377;68.75</div>
+            <div class='thin dense'>&#8377;4.95</div>
+            &#8377;35.55
+          </span>
+        </div>
+</div>
+</div>
+      </div>
+    </div>
+<!-- partial -->
+
+</body>
+</html>
